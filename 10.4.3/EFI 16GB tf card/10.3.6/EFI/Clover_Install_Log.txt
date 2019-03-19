@@ -1,0 +1,36 @@
+
+Clover EFI installer log - Fri Mar 15 21:46:04 CET 2019
+Installer version: v2.4k r4428 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2: 7C3457EF-0000-11AA-AA11-00306543ECAC               189.8 GB   disk0s2
+   3:                  Apple_HFS Macintosh HD            49.4 GB    disk0s3
+   4:                 Apple_Boot Recovery HD             650.0 MB   disk0s4
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.9 GB    disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS Install macOS High S... 15.5 GB    disk1s2
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *95.4 MB    disk2
+   1:                  Apple_HFS MEGAsync                95.4 MB    disk2s1
+/dev/disk3
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            macOS High Sierra P... *204.8 MB   disk3
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Install macOS High Sierra/EFIROOTDIR/EFI folder to /Volumes/Install macOS High Sierra/EFI-Backups/r4428/2019-03-15-21h46/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS High Sierra
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS High Sierra
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

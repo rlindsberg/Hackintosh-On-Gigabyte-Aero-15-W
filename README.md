@@ -9,3 +9,6 @@ I couldn't download the full installer dmg from Apple Store any more but I found
 Multibeast has provided some kexts but we are going to replace them.
 
 Copy essential kexts to the 'Other' directory (FakeSMC, VoodooPS2Controller). You only need the kexts that allow you to boot and operate the installer. Other kexts that you might use in the final installation can wait.
+
+Use RehabMan's own versions of these kexts:
+FakeSMC.kext: https://github.com/RehabMan/OS-X-FakeSMC-kozlek

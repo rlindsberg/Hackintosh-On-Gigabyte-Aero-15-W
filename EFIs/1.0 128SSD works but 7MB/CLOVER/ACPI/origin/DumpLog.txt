@@ -1,0 +1,136 @@
+46:971  10:072  Found UEFI Acpi 2.0 RSDP at 3A420000
+46:971  0:000  Saving ACPI tables from RSDP 3A420000 to EFI\CLOVER\ACPI\origin ...
+46:971  0:000   3A420000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+47:013  0:041    (Xsdt: 3A4200B8, Rsdt: 3A420028)
+47:013  0:000    3A4200B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236 -> XSDT.aml
+47:048  0:035    3A420028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136 -> RSDT.aml
+47:081  0:033    Tables in Xsdt: 25
+47:081  0:000    0. 3A461440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276 -> FACP.aml
+47:132  0:050        (Dsdt: 3A420230, Facs: 3A614080, XDsdt: 3A420230, XFacs: 0)
+47:132  0:000        3A420230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763 -> DSDT.aml
+47:191  0:059        3A614080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+47:232  0:041    1. 3A461558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244 -> APIC.aml
+47:274  0:042    2. 3A461650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68 -> FPDT.aml
+47:308  0:033    3. 3A461698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156 -> FIDT.aml
+47:341  0:032    4. 3A461738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60 -> MCFG.aml
+47:400  0:059    5. 3A461778: 'SSDT', 'SataTabl', Rev: 1, Len: 820 -> SSDT-0-SataTabl.aml
+47:441  0:041    6. 3A461AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+47:482  0:041        * 3A3D4298: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1470  53 53 44 54 BE 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1470 -> SSDT-x1_0-Cpu0Ist.aml
+47:524  0:042        * 3A3CC018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+47:587  0:062        * 3A3CB018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+47:628  0:041        * 3A3CDA98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+47:681  0:052        * 3A3D4918: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 9F 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x1_4-Cpu0Hwp.aml
+47:723  0:042        * 3A3CB698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+47:767  0:043        * 3A3CD018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+47:809  0:042  
+47:809  0:000    7. 3A463288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85 -> MSDM.aml
+47:844  0:034    8. 3A4632E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374 -> SLIC.aml
+47:893  0:049    9. 3A463458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743 -> SSDT-2-SaSsdt.aml
+47:950  0:056    10. 3A466620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135 -> SSDT-3-PegSsdt.aml
+47:994  0:044    11. 3A4685E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56 -> HPET.aml
+48:028  0:033    12. 3A468620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998 -> SSDT-4-Ther_Rvp.aml
+48:077  0:049    13. 3A4695C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572 -> SSDT-5-xh_cfhd4.aml
+48:120  0:042    14. 3A46BF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72 -> UEFI.aml
+48:153  0:033    15. 3A46BF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92 -> LPIT.aml
+48:187  0:034    16. 3A46BFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-6-PtidDevc.aml
+48:237  0:050    17. 3A46E798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226 -> SSDT-7-TbtTypeC.aml
+48:282  0:044    18. 3A46F820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52 -> DBGP.aml
+48:324  0:042    19. 3A46F858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84 -> DBG2.aml
+48:357  0:032    20. 3A46F8B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-8-SgPeg.aml
+48:387  0:030    21. 3A46F960: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+48:437  0:049    22. 3A46FA08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56 -> BGRT.aml
+48:480  0:042    23. 3A46FA40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801 -> SSDT-9-OptTabl.aml
+48:522  0:041    24. 3A4718C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40 -> WSMT.aml
+48:552  0:030    Tables in Rsdt: 25
+48:552  0:000    0. 3A4201A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132 -> RSDT-FACP.aml
+48:584  0:032        (Dsdt: 3A420230, Facs: 3A614040)
+48:584  0:000        3A420230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+48:598  0:013        3A614040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+48:646  0:047    1. 3A461558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+48:646  0:000    2. 3A461650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+48:646  0:000    3. 3A461698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+48:646  0:000    4. 3A461738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+48:646  0:000    5. 3A461778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+48:646  0:000    6. 3A461AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+48:646  0:000    7. 3A463288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+48:646  0:000    8. 3A4632E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+48:646  0:000    9. 3A463458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+48:646  0:000    10. 3A466620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+48:646  0:000    11. 3A4685E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+48:646  0:000    12. 3A468620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+48:646  0:000    13. 3A4695C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+48:646  0:000    14. 3A46BF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+48:646  0:000    15. 3A46BF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+48:646  0:000    16. 3A46BFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+48:646  0:000    17. 3A46E798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+48:646  0:000    18. 3A46F820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+48:646  0:000    19. 3A46F858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+48:646  0:000    20. 3A46F8B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+48:646  0:000    21. 3A46F960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+48:646  0:000    22. 3A46FA08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+48:646  0:000    23. 3A46FA40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+48:646  0:000    24. 3A4718C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+48:646  0:000  Found UEFI Acpi 1.0 RSDP at 3A420000
+48:646  0:000  Printing ACPI tables from RSDP 3A420000 ...
+48:646  0:000   3A420000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+48:646  0:000    (Xsdt: 3A4200B8, Rsdt: 3A420028)
+48:646  0:000    3A4200B8: 'XSDT', 'GBTUACPI', Rev: 1, Len: 236
+48:646  0:000    3A420028: 'RSDT', 'GBTUACPI', Rev: 1, Len: 136
+48:646  0:000    Tables in Xsdt: 25
+48:646  0:000    0. 3A461440: 'FACP', 'GBTUACPI', Rev: 6, Len: 276
+48:646  0:000        (Dsdt: 3A420230, Facs: 3A614080, XDsdt: 3A420230, XFacs: 0)
+48:646  0:000        3A420230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+48:660  0:013        3A614080: 'FACS', Ver: 2, Len: 64
+48:660  0:000    1. 3A461558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+48:660  0:000    2. 3A461650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+48:660  0:000    3. 3A461698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+48:660  0:000    4. 3A461738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+48:660  0:000    5. 3A461778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+48:660  0:000    6. 3A461AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+48:660  0:000    7. 3A463288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+48:660  0:000    8. 3A4632E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+48:660  0:000    9. 3A463458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+48:660  0:000    10. 3A466620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+48:660  0:000    11. 3A4685E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+48:660  0:000    12. 3A468620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+48:660  0:000    13. 3A4695C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+48:660  0:000    14. 3A46BF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+48:660  0:000    15. 3A46BF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+48:660  0:000    16. 3A46BFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+48:660  0:000    17. 3A46E798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+48:660  0:000    18. 3A46F820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+48:660  0:000    19. 3A46F858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+48:660  0:000    20. 3A46F8B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+48:660  0:000    21. 3A46F960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+48:660  0:000    22. 3A46FA08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+48:660  0:000    23. 3A46FA40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+48:660  0:000    24. 3A4718C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
+48:660  0:000    Tables in Rsdt: 25
+48:660  0:000    0. 3A4201A8: 'FACP', 'GBTUACPI', Rev: 2, Len: 132
+48:660  0:000        (Dsdt: 3A420230, Facs: 3A614040)
+48:660  0:000        3A420230: 'DSDT', 'GBTUACPI', Rev: 2, Len: 266763
+48:674  0:013        3A614040: 'FACS', Ver: 0, Len: 64
+48:674  0:000    1. 3A461558: 'APIC', 'GBTUACPI', Rev: 4, Len: 244
+48:674  0:000    2. 3A461650: 'FPDT', 'GBTUACPI', Rev: 1, Len: 68
+48:674  0:000    3. 3A461698: 'FIDT', 'GBTUACPI', Rev: 1, Len: 156
+48:674  0:000    4. 3A461738: 'MCFG', 'GBTUACPI', Rev: 1, Len: 60
+48:674  0:000    5. 3A461778: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+48:674  0:000    6. 3A461AB0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+48:674  0:000    7. 3A463288: 'MSDM', 'GBTUACPI', Rev: 3, Len: 85
+48:674  0:000    8. 3A4632E0: 'SLIC', 'GBTUACPI', Rev: 1, Len: 374
+48:674  0:000    9. 3A463458: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+48:674  0:000    10. 3A466620: 'SSDT', 'PegSsdt', Rev: 2, Len: 8135
+48:674  0:000    11. 3A4685E8: 'HPET', 'GBTUACPI', Rev: 1, Len: 56
+48:674  0:000    12. 3A468620: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3998
+48:674  0:000    13. 3A4695C0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10572
+48:674  0:000    14. 3A46BF10: 'UEFI', 'GBTUACPI', Rev: 1, Len: 72
+48:674  0:000    15. 3A46BF58: 'LPIT', 'GBTUACPI', Rev: 1, Len: 92
+48:674  0:000    16. 3A46BFB8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+48:674  0:000    17. 3A46E798: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4226
+48:674  0:000    18. 3A46F820: 'DBGP', 'GBTUACPI', Rev: 1, Len: 52
+48:674  0:000    19. 3A46F858: 'DBG2', 'GBTUACPI', Rev: 0, Len: 84
+48:674  0:000    20. 3A46F8B0: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+48:674  0:000    21. 3A46F960: 'DMAR', 'EDK2', Rev: 1, Len: 168
+48:674  0:000    22. 3A46FA08: 'BGRT', 'GBTUACPI', Rev: 1, Len: 56
+48:674  0:000    23. 3A46FA40: 'SSDT', 'OptTabl', Rev: 1, Len: 7801
+48:674  0:000    24. 3A4718C0: 'WSMT', 'GBTUACPI', Rev: 1, Len: 40
